@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#home{
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+}
+#home ul{
+    display: flex;
+}
+#home .menu li{
+    flex: 1;
+    list-style-type: none;
+    text-align: center;
+}
+#home .menu li a{
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+}
+#home .menu li a:hover{
+    color: aqua;
+
+}
+#home .logo{
+    color: white;
+    display: flex;
+}
+#home .logo span{
+    color: aqua;
+}
+#aboutme{
+    background-color: rgba(0, 0, 0, 0.925);
+    width: 100%;
+    height: 100vh;
+}
+#aboutme{
+    color: white;
+    text-align: center;
+}
+#aboutme p{
+    margin-top: 100px;
+    font-size: 30px;
+}
+#aboutme h1{
+    color: aqua;
+}
+#home h2{
+    color-interpolation: white;
+}
